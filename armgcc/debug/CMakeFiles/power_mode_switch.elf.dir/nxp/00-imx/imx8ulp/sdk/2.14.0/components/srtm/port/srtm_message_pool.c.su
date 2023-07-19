@@ -1,0 +1,8 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_common_arm.h:732:24:DisableGlobalIRQ	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_common_arm.h:758:20:EnableGlobalIRQ	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:92:20:SRTM_List_AddTail	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:130:20:SRTM_List_Remove	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_message_pool.c:57:7:SRTM_MessagePool_Alloc	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_message_pool.c:117:6:SRTM_MessagePool_Free	24	static

@@ -1,0 +1,10 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:25:17:PCA6416A_ReadPort	40	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:31:17:PCA6416A_WritePort	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:37:17:PCA6416A_ModifyPortRegBits	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:78:6:PCA6416A_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:105:10:PCA6416A_SetDirection	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:128:10:PCA6416A_InversePolarity	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:141:10:PCA6416A_ReadPins	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:162:10:PCA6416A_SetPins	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:183:10:PCA6416A_ClearPins	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c:204:10:PCA6416A_TogglePins	16	static

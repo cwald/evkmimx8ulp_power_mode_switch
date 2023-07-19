@@ -1,0 +1,14 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_bbnsm.h:159:20:BBNSM_EnableInterrupts	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_bbnsm.h:185:20:BBNSM_DisableInterrupts	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_bbnsm.h:235:20:BBNSM_ClearStatusFlags	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:28:18:HAL_RtcInit	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:46:6:HAL_RtcDeinit	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:58:18:HAL_RtcSetTime	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:74:10:HAL_RtcGetTime	64	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:87:18:HAL_RtcSetAlarm	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:99:10:HAL_RtcGetAlarm	64	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:109:10:HAL_RtcGetEnabledInterrupts	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:125:10:HAL_RtcGetStatusFlags	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:141:6:HAL_RtcClearStatusFlags	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:155:6:HAL_RtcEnableInterrupts	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c:169:6:HAL_RtcDisableInterrupts	24	static

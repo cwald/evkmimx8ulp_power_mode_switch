@@ -1,0 +1,5 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_tpm.h:859:20:TPM_StartTimer	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/fsl_adapter_pwm_tpm.c:37:18:HAL_PwmInit	48	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/fsl_adapter_pwm_tpm.c:59:6:HAL_PwmDeinit	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/fsl_adapter_pwm_tpm.c:82:18:HAL_PwmSetupPwm	56	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/fsl_adapter_pwm_tpm.c:116:18:HAL_PwmUpdateDutycycle	24	static

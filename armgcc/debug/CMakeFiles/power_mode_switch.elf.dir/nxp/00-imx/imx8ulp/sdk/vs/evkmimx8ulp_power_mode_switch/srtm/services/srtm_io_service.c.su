@@ -1,0 +1,17 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_common_arm.h:732:24:DisableGlobalIRQ	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/./fsl_common_arm.h:758:20:EnableGlobalIRQ	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:92:20:SRTM_List_AddTail	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:130:20:SRTM_List_Remove	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:73:13:SRTM_IoService_FreePin	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:79:13:SRTM_IoService_RecycleMessage	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:93:22:SRTM_IoService_FindPin	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:136:22:SRTM_IoService_Request	72	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:249:22:SRTM_IoService_Notify	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:257:16:SRTM_IoService_Create	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:278:6:SRTM_IoService_Destroy	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:301:6:SRTM_IoService_Reset	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:319:15:SRTM_IoService_RegisterPin	48	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:370:15:SRTM_IoService_UnregisterPin	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c:396:15:SRTM_IoService_NotifyInputEvent	24	static

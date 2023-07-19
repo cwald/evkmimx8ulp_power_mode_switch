@@ -1,0 +1,15 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:92:20:SRTM_List_AddTail	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:130:20:SRTM_List_Remove	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:34:17:SRTM_PeerCore_Create	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:61:6:SRTM_PeerCore_Destroy	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:87:10:SRTM_PeerCore_GetID	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:94:15:SRTM_PeerCore_Start	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:120:15:SRTM_PeerCore_Stop	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:146:15:SRTM_PeerCore_Activate	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:170:15:SRTM_PeerCore_Deactivate	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:187:15:SRTM_PeerCore_AddChannel	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:208:15:SRTM_PeerCore_RemoveChannel	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:229:23:SRTM_PeerCore_GetState	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c:236:15:SRTM_PeerCore_SetState	16	static

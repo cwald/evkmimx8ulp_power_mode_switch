@@ -1,0 +1,14 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:45:18:SRTM_I2C_SearchBus	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:62:22:SRTM_I2CService_ReadBus	80	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:101:22:SRTM_I2CService_WriteBus	80	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:140:16:SRTM_I2CService_Create	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:161:6:SRTM_I2CService_Destroy	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:175:6:SRTM_I2CService_Reset	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:182:22:SRTM_I2CService_Request	64	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:252:22:SRTM_I2CService_Notify	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:260:13:SRTM_I2C_HandleBusRead	56	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:270:13:SRTM_I2C_HandleBusWrite	56	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:280:15:SRTM_I2C_RequestBusRead	48	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c:316:15:SRTM_I2C_RequestBusWrite	48	static

@@ -1,0 +1,9 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:64:22:SRTM_SensorService_UpdateState	40	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:90:22:SRTM_SensorService_ReportData	48	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:120:22:SRTM_SensorService_Request	72	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:201:22:SRTM_SensorService_Notify	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:209:16:SRTM_SensorService_Create	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:235:6:SRTM_SensorService_Destroy	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c:249:6:SRTM_SensorService_Reset	32	static

@@ -1,0 +1,6 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.c:45:22:SRTM_PwmService_Request	112	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.c:121:22:SRTM_PwmService_Notify	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.c:129:16:SRTM_PwmService_Create	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.c:150:6:SRTM_PwmService_Destroy	24	static

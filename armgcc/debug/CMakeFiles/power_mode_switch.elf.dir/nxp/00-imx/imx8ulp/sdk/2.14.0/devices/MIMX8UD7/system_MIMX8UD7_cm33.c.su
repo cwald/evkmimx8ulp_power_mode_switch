@@ -1,0 +1,5 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c:62:17:getPll0Freq	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c:83:17:getPll1Freq	64	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c:117:6:SystemInit	8	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c:143:6:SystemCoreClockUpdate	80	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c:197:28:SystemInitHook	4	static

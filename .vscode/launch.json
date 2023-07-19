@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "name": "Debug project configuration",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "MIMode": "gdb",
+      "setupCommands": [
+        {"text": "set remotetimeout 60000"}
+      ],
+      "program": "",
+      "variables": {
+        "mcuxStopAtSymbol": "main", // Initial breakpoint
+        "mcuxSerialNumber": "", // Probe serial number. If not specified, the one from the selected debug probe (in extension view) will be used.
+        "mcuxAttach": "false", // Start debug in attach mode
+        "mcuxPort": "", // GDB server port. If not specified, a default will be determined by the extension.
+        "mcuxTelnetPort": "", // Semihosting telnet port
+        "mcuxSwoPort": "", // SWO port (JLink specific)
+        "mcuxSeggerRTOSPlugin": "", // RTOS plugin passed to -rtos option (JLink specific)
+        "mcuxSeggerScript": "" // JLink script file (JLink specific)
+      },
+      "logging": {
+        "engineLogging": false
+      }
+    }
+  ]
+}

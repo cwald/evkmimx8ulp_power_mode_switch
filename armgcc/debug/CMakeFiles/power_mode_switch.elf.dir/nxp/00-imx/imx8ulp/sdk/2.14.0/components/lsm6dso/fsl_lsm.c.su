@@ -1,0 +1,8 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:12:10:LSM_Init	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:204:10:LSM_GetVal	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:223:10:LSM_SetVal	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:242:10:LSM_GetPedometerCnt	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:261:10:LSM_ReadReg	48	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:276:10:LSM_WriteReg	48	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:290:10:LSM_SetMemBank	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c:307:10:LSM_GetMemBank	24	static

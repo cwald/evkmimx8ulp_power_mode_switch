@@ -1,0 +1,8 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:56:6:WUU_SetExternalWakeUpPinsConfig	48	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:130:6:WUU_SetInternalWakeUpModulesConfig	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:153:6:WUU_ClearInternalWakeUpModulesConfig	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:179:6:WUU_SetPinFilterConfig	40	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:225:6:WUU_GetPinFilterFlag	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:253:6:WUU_ClearPinFilterFlag	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:276:6:WUU_GetExternalWakeupPinFlag	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c:289:6:WUU_ClearExternalWakeupPinFlag	16	static

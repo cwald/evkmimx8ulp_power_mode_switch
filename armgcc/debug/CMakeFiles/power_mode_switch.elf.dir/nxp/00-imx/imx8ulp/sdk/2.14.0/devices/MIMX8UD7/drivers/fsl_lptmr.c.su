@@ -1,0 +1,6 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_clock.h:1537:20:CLOCK_EnableClock	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_clock.h:1550:20:CLOCK_DisableClock	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lptmr.c:53:17:LPTMR_GetInstance	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lptmr.c:80:6:LPTMR_Init	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lptmr.c:112:6:LPTMR_Deinit	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lptmr.c:147:6:LPTMR_GetDefaultConfig	16	static

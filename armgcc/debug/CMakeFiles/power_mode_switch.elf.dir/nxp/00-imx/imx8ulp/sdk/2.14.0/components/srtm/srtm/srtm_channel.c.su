@@ -1,0 +1,4 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_channel.c:29:6:SRTM_Channel_Destroy	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_channel.c:37:15:SRTM_Channel_Start	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_channel.c:45:15:SRTM_Channel_Stop	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_channel.c:53:15:SRTM_Channel_SendData	24	static

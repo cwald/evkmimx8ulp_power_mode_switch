@@ -1,0 +1,3 @@
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/debug/CMakeFiles/power_mode_switch.elf.dir
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/debug/CMakeFiles/edit_cache.dir
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/debug/CMakeFiles/rebuild_cache.dir

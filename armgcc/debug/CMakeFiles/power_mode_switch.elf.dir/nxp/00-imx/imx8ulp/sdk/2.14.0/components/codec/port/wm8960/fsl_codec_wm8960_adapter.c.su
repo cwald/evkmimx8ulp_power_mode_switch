@@ -1,0 +1,10 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:89:10:HAL_CODEC_WM8960_Init	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:110:10:HAL_CODEC_WM8960_Deinit	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:126:10:HAL_CODEC_WM8960_SetFormat	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:142:10:HAL_CODEC_WM8960_SetVolume	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:197:10:HAL_CODEC_WM8960_SetMute	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:227:10:HAL_CODEC_WM8960_SetPower	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:246:10:HAL_CODEC_WM8960_SetRecordChannel	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:259:10:HAL_CODEC_WM8960_SetRecord	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:272:10:HAL_CODEC_WM8960_SetPlay	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c:289:10:HAL_CODEC_WM8960_ModuleControl	24	static

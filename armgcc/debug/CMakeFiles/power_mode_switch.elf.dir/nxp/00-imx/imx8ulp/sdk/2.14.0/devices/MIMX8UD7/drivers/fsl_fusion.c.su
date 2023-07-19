@@ -1,0 +1,4 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_fusion.h:101:20:Fusion_Stop	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_fusion.c:40:6:Fusion_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_fusion.c:70:6:Fusion_Deinit	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_fusion.c:100:6:DSP_CopyImage	32	static

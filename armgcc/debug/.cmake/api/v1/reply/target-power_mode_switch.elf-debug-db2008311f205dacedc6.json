@@ -1,0 +1,2530 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "power_mode_switch.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"TARGET_LINK_LIBRARIES",
+			"target_link_libraries",
+			"target_include_directories",
+			"include",
+			"include_if_use",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/tools/cmake_toolchain_files/mcux_config.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/all_lib_device.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/i2c/component_codec_i2c.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lists/component_lists.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/i2c/component_lpi2c_adapter.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/uart/component_lpuart_adapter.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/component_pwm_tpm_adapter.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/component_rtc_bbnsm_adapter.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/component_serial_manager.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/component_wm8960_adapter.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/device_MIMX8UD7_CMSIS.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_bbnsm.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/driver_codec.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/driver_lsm6dso.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/driver_pca6416a.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/driver_srtm.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_upower.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/wm8960/driver_wm8960.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/middleware_freertos-kernel.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/middleware_freertos-kernel_cm33_non_trustzone.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/middleware_multicore_rpmsg_lite.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/middleware_multicore_rpmsg_lite_freertos.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/middleware_multicore_rpmsg_lite_imx8ulp_m33_freertos.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/utility_debug_console.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/component_serial_manager_uart.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/device_MIMX8UD7_startup.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_cache_cache64.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_clock.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_common.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_dma3.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_flexspi.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_fusion.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_lpi2c.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_lptmr.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_lpuart.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_mu1.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_reset.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_rgpio.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_rtd_cmc.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_sai.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_sai_edma.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_sentinel.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/driver_srtm_freertos.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_tpm.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_trdc.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/driver_wuu.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/middleware_freertos-kernel_heap_4.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/utilities_misc_utilities.MIMX8UD7.cmake",
+			"/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/utility_assert.MIMX8UD7.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 808,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 8
+			},
+			{
+				"file" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 816,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 12
+			},
+			{
+				"file" : 4,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 826,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 16
+			},
+			{
+				"file" : 5,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 12,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 828,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 20
+			},
+			{
+				"file" : 6,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 12,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 832,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 24
+			},
+			{
+				"file" : 7,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 12,
+				"parent" : 26
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 844,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 28
+			},
+			{
+				"file" : 8,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 12,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 847,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 32
+			},
+			{
+				"file" : 9,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 12,
+				"parent" : 34
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 848,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 36
+			},
+			{
+				"file" : 10,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 12,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 859,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 40
+			},
+			{
+				"file" : 11,
+				"parent" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 12,
+				"parent" : 42
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 860,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 44
+			},
+			{
+				"file" : 12,
+				"parent" : 45
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 15,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 865,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 48
+			},
+			{
+				"file" : 13,
+				"parent" : 49
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 12,
+				"parent" : 50
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 882,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 52
+			},
+			{
+				"file" : 14,
+				"parent" : 53
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 12,
+				"parent" : 54
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 938,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 56
+			},
+			{
+				"file" : 15,
+				"parent" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 12,
+				"parent" : 58
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 60
+			},
+			{
+				"file" : 16,
+				"parent" : 61
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 12,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 964,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 64
+			},
+			{
+				"file" : 17,
+				"parent" : 65
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 66
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 970,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 68
+			},
+			{
+				"file" : 18,
+				"parent" : 69
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 13,
+				"parent" : 70
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 974,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 72
+			},
+			{
+				"file" : 19,
+				"parent" : 73
+			},
+			{
+				"command" : 3,
+				"file" : 19,
+				"line" : 12,
+				"parent" : 74
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 977,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 76
+			},
+			{
+				"file" : 20,
+				"parent" : 77
+			},
+			{
+				"command" : 3,
+				"file" : 20,
+				"line" : 18,
+				"parent" : 78
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 978,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 80
+			},
+			{
+				"file" : 21,
+				"parent" : 81
+			},
+			{
+				"command" : 3,
+				"file" : 21,
+				"line" : 29,
+				"parent" : 82
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 995,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 84
+			},
+			{
+				"file" : 22,
+				"parent" : 85
+			},
+			{
+				"command" : 3,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 86
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 997,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 88
+			},
+			{
+				"file" : 23,
+				"parent" : 89
+			},
+			{
+				"command" : 3,
+				"file" : 23,
+				"line" : 13,
+				"parent" : 90
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 92
+			},
+			{
+				"file" : 24,
+				"parent" : 93
+			},
+			{
+				"command" : 3,
+				"file" : 24,
+				"line" : 12,
+				"parent" : 94
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1012,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 96
+			},
+			{
+				"file" : 25,
+				"parent" : 97
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 13,
+				"parent" : 98
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 8,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 8,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 8,
+				"parent" : 34
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 8,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 851,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 107
+			},
+			{
+				"file" : 26,
+				"parent" : 108
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 8,
+				"parent" : 109
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 8,
+				"parent" : 42
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 9,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 862,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 113
+			},
+			{
+				"file" : 27,
+				"parent" : 114
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 7,
+				"parent" : 115
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 8,
+				"parent" : 50
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 866,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 118
+			},
+			{
+				"file" : 28,
+				"parent" : 119
+			},
+			{
+				"command" : 6,
+				"file" : 28,
+				"line" : 8,
+				"parent" : 120
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 878,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 122
+			},
+			{
+				"file" : 29,
+				"parent" : 123
+			},
+			{
+				"command" : 6,
+				"file" : 29,
+				"line" : 8,
+				"parent" : 124
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 8,
+				"parent" : 54
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 883,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 127
+			},
+			{
+				"file" : 30,
+				"parent" : 128
+			},
+			{
+				"command" : 6,
+				"file" : 30,
+				"line" : 8,
+				"parent" : 129
+			},
+			{
+				"command" : 6,
+				"file" : 30,
+				"line" : 13,
+				"parent" : 129
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 901,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 132
+			},
+			{
+				"file" : 31,
+				"parent" : 133
+			},
+			{
+				"command" : 6,
+				"file" : 31,
+				"line" : 8,
+				"parent" : 134
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 919,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 136
+			},
+			{
+				"file" : 32,
+				"parent" : 137
+			},
+			{
+				"command" : 6,
+				"file" : 32,
+				"line" : 8,
+				"parent" : 138
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 921,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 140
+			},
+			{
+				"file" : 33,
+				"parent" : 141
+			},
+			{
+				"command" : 6,
+				"file" : 33,
+				"line" : 8,
+				"parent" : 142
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 927,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 144
+			},
+			{
+				"file" : 34,
+				"parent" : 145
+			},
+			{
+				"command" : 6,
+				"file" : 34,
+				"line" : 8,
+				"parent" : 146
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 934,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 148
+			},
+			{
+				"file" : 35,
+				"parent" : 149
+			},
+			{
+				"command" : 6,
+				"file" : 35,
+				"line" : 8,
+				"parent" : 150
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 935,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 152
+			},
+			{
+				"file" : 36,
+				"parent" : 153
+			},
+			{
+				"command" : 6,
+				"file" : 36,
+				"line" : 8,
+				"parent" : 154
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 8,
+				"parent" : 58
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 942,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 157
+			},
+			{
+				"file" : 37,
+				"parent" : 158
+			},
+			{
+				"command" : 6,
+				"file" : 37,
+				"line" : 8,
+				"parent" : 159
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 8,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 955,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 162
+			},
+			{
+				"file" : 38,
+				"parent" : 163
+			},
+			{
+				"command" : 6,
+				"file" : 38,
+				"line" : 8,
+				"parent" : 164
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 956,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 166
+			},
+			{
+				"file" : 39,
+				"parent" : 167
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 8,
+				"parent" : 168
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 957,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 170
+			},
+			{
+				"file" : 40,
+				"parent" : 171
+			},
+			{
+				"command" : 6,
+				"file" : 40,
+				"line" : 8,
+				"parent" : 172
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 958,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 174
+			},
+			{
+				"file" : 41,
+				"parent" : 175
+			},
+			{
+				"command" : 6,
+				"file" : 41,
+				"line" : 8,
+				"parent" : 176
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 959,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 178
+			},
+			{
+				"file" : 42,
+				"parent" : 179
+			},
+			{
+				"command" : 6,
+				"file" : 42,
+				"line" : 8,
+				"parent" : 180
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 961,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 182
+			},
+			{
+				"file" : 43,
+				"parent" : 183
+			},
+			{
+				"command" : 6,
+				"file" : 43,
+				"line" : 8,
+				"parent" : 184
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 66
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 965,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 187
+			},
+			{
+				"file" : 44,
+				"parent" : 188
+			},
+			{
+				"command" : 6,
+				"file" : 44,
+				"line" : 8,
+				"parent" : 189
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 966,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 191
+			},
+			{
+				"file" : 45,
+				"parent" : 192
+			},
+			{
+				"command" : 6,
+				"file" : 45,
+				"line" : 8,
+				"parent" : 193
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 967,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 195
+			},
+			{
+				"file" : 46,
+				"parent" : 196
+			},
+			{
+				"command" : 6,
+				"file" : 46,
+				"line" : 8,
+				"parent" : 197
+			},
+			{
+				"command" : 6,
+				"file" : 18,
+				"line" : 8,
+				"parent" : 70
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 8,
+				"parent" : 74
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 975,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 201
+			},
+			{
+				"file" : 47,
+				"parent" : 202
+			},
+			{
+				"command" : 6,
+				"file" : 47,
+				"line" : 8,
+				"parent" : 203
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 8,
+				"parent" : 78
+			},
+			{
+				"command" : 6,
+				"file" : 21,
+				"line" : 9,
+				"parent" : 82
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 986,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 207
+			},
+			{
+				"file" : 48,
+				"parent" : 208
+			},
+			{
+				"command" : 6,
+				"file" : 48,
+				"line" : 8,
+				"parent" : 209
+			},
+			{
+				"command" : 6,
+				"file" : 22,
+				"line" : 8,
+				"parent" : 86
+			},
+			{
+				"command" : 6,
+				"file" : 23,
+				"line" : 7,
+				"parent" : 90
+			},
+			{
+				"command" : 6,
+				"file" : 24,
+				"line" : 8,
+				"parent" : 94
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1009,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 214
+			},
+			{
+				"file" : 49,
+				"parent" : 215
+			},
+			{
+				"command" : 6,
+				"file" : 49,
+				"line" : 7,
+				"parent" : 216
+			},
+			{
+				"command" : 6,
+				"file" : 49,
+				"line" : 13,
+				"parent" : 216
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1010,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 219
+			},
+			{
+				"file" : 50,
+				"parent" : 220
+			},
+			{
+				"command" : 6,
+				"file" : 50,
+				"line" : 8,
+				"parent" : 221
+			},
+			{
+				"command" : 6,
+				"file" : 25,
+				"line" : 8,
+				"parent" : 98
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -DDEBUG     -DCPU_MIMX8UD7DVP10_cm33     -DSDK_I2C_BASED_COMPONENT_USED=1     -DBOARD_USE_PCA6416A=1     -DBOARD_USE_TPM=1     -DMCUXPRESSO_SDK     -DSDK_I2C_BASED_COMPONENT_USED=1     -DSERIAL_PORT_TYPE_UART=1     -DRTC_LEGACY_FUNCTION_PROTOTYPE=0     -DBOARD_USE_CODEC=1     -DCODEC_WM8960_ENABLE     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/boards/evkmimx8ulp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/../srtm/channels"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/../srtm/services"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/i2c/."
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lists/."
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/i2c/."
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/uart/."
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/."
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/."
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/."
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/."
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/."
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/."
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/."
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/."
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/include"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/upower"
+				},
+				{
+					"backtrace" : 75,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/wm8960/."
+				},
+				{
+					"backtrace" : 79,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure"
+				},
+				{
+					"backtrace" : 87,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 91,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 95,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include/platform/imx8ulp_m33"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/str"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/debug_console"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				9,
+				12,
+				14,
+				16,
+				18,
+				19,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				111,
+				112,
+				113
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DNO_CRP     -D__STARTUP_INITIALIZE_NONCACHEDATA     -mcpu=cortex-m33     -mthumb     -mfloat-abi=hard -mfpu=fpv5-sp-d16 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/boards/evkmimx8ulp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/../srtm/channels"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/../srtm/services"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/i2c/."
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lists/."
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/i2c/."
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/uart/."
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/."
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/."
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/."
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/."
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/."
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/."
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/."
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/."
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/include"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/upower"
+				},
+				{
+					"backtrace" : 75,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/wm8960/."
+				},
+				{
+					"backtrace" : 79,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure"
+				},
+				{
+					"backtrace" : 87,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 91,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 95,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/include/platform/imx8ulp_m33"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/str"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/debug_console"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				55,
+				110
+			]
+		}
+	],
+	"id" : "power_mode_switch.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -DDEBUG     -DCPU_MIMX8UD7DVP10_cm33     -DSDK_I2C_BASED_COMPONENT_USED=1     -DBOARD_USE_PCA6416A=1     -DBOARD_USE_TPM=1     -DMCUXPRESSO_SDK     -DSDK_I2C_BASED_COMPONENT_USED=1     -DSERIAL_PORT_TYPE_UART=1     -DRTC_LEGACY_FUNCTION_PROTOTYPE=0     -DBOARD_USE_CODEC=1     -DCODEC_WM8960_ENABLE     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-g     -mcpu=cortex-m33     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mthumb     -mapcs     -Xlinker     --gc-sections     -Xlinker     -static     -Xlinker     -z     -Xlinker     muldefs     -Xlinker     -Map=output.map     -Wl,--print-memory-usage     -Xlinker     --defsym=__stack_size__=0x400     -Xlinker     --defsym=__heap_size__=0x400     -mfloat-abi=hard -mfpu=fpv5-sp-d16     --specs=nano.specs --specs=nosys.specs     -T/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/armgcc/MIMX8UD7xxxxx_cm33_ram.ld -static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lgcc -lc -lm -lcr_newlib_nohost",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "power_mode_switch.elf",
+	"nameOnDisk" : "power_mode_switch.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				9,
+				12,
+				14,
+				16,
+				18,
+				19,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				111,
+				112,
+				113
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				6,
+				8,
+				10,
+				11,
+				13,
+				15,
+				17,
+				20,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				55,
+				110
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/rsc_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/rsc_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/remoteproc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/rpmsg_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/fsl_lpi2c_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/fsl_lpi2c_freertos.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/power_mode_switch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/power_mode_switch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/lpm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/lpm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/pin_mux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/pin_mux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/board.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/clock_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/clock_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/empty_rsc_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/app_srtm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/app_srtm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/channels/srtm_rpmsg_endpoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/channels/srtm_rpmsg_endpoint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_audio_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_audio_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sai_edma_adapter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sai_edma_adapter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_i2c_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_sensor_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_io_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_keypad_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_keypad_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_rtc_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_rtc_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_rtc_adapter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_rtc_adapter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/i2c/fsl_codec_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lists/fsl_component_generic_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/i2c/fsl_adapter_lpi2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/uart/fsl_adapter_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pwm/fsl_adapter_pwm_tpm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/rtc/fsl_adapter_rtc_bbnsm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/fsl_component_serial_manager.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/serial_manager/fsl_component_serial_port_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/port/wm8960/fsl_codec_wm8960_adapter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/system_MIMX8UD7_cm33.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/gcc/startup_MIMX8UD7_cm33.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 121,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/fsl_codec_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 130,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_common_arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 135,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_edma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 139,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_flexspi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 143,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_fusion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 147,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lpi2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 151,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lptmr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 155,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 156,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/lsm6dso/fsl_lsm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 160,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_mu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 161,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/pca6416a/fsl_pca6416a.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 165,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_reset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_rgpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 173,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_rtd_cmc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 177,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_sai.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 181,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_sai_edma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 185,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_sentinel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_channel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_dispatcher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_message.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_peercore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_message_pool.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_heap_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_mutex_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_sem_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 194,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_tpm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 198,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_trdc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 199,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_upower.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 199,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/upower/upower_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 200,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/components/codec/wm8960/fsl_wm8960.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 204,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_wuu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/stream_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 206,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 206,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 210,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/common/llist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_lite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_ns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/virtio/virtqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 212,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/environment/rpmsg_env_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 212,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 213,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/platform/imx8ulp_m33/rpmsg_platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 217,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/fsl_sbrk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 218,
+			"compileGroupIndex" : 1,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/fsl_memcpy.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 222,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/fsl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/str/fsl_str.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/utilities/debug_console/fsl_debug_console.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

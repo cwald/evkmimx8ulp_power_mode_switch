@@ -1,0 +1,16 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_clock.h:1537:20:CLOCK_EnableClock	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_clock.h:1550:20:CLOCK_DisableClock	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.h:252:20:BBNSM_RTC_StartTimer	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.h:273:20:BBNSM_RTC_StopTimer	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:45:17:BBNSM_GetInstance	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:58:6:BBNSM_Init	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:71:6:BBNSM_Deinit	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:87:6:BBNSM_RTC_Init	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:110:6:BBNSM_RTC_Deinit	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:130:6:BBNSM_RTC_GetDefaultConfig	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:141:10:BBNSM_RTC_GetSeconds	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:163:6:BBNSM_RTC_SetSeconds	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:198:10:BBNSM_RTC_SetAlarm	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:244:10:BBNSM_RTC_GetAlarm	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:258:10:BBNSM_GetStatusFlags	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_bbnsm.c:271:10:BBNSM_GetEnabledInterrupts	16	static

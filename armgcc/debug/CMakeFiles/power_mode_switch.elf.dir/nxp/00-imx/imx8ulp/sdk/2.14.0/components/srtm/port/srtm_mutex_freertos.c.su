@@ -1,0 +1,4 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_mutex_freertos.c:35:14:SRTM_Mutex_Create	8	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_mutex_freertos.c:41:6:SRTM_Mutex_Destroy	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_mutex_freertos.c:48:15:SRTM_Mutex_Lock	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_mutex_freertos.c:60:15:SRTM_Mutex_Unlock	16	static

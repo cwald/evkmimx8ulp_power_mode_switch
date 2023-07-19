@@ -1,0 +1,3 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_rtd_cmc.c:39:6:RTDCMC_SetClockMode	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_rtd_cmc.c:63:6:RTDCMC_SetPowerModeProtection	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/devices/MIMX8UD7/drivers/fsl_rtd_cmc.c:82:6:RTDCMC_EnterLowPowerMode	16	static

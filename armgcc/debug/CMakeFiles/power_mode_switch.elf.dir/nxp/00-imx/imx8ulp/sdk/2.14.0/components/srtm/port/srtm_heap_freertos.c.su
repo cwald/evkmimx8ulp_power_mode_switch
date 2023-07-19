@@ -1,0 +1,2 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_heap_freertos.c:32:7:SRTM_Heap_Malloc	24	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_heap_freertos.c:48:6:SRTM_Heap_Free	16	static

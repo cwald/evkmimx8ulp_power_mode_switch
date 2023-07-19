@@ -1,0 +1,16 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:48:20:SRTM_List_Init	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:62:20:SRTM_List_IsEmpty	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:92:20:SRTM_List_AddTail	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_list.h:130:20:SRTM_List_Remove	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:76:22:SRTM_LfclService_NotifySubscribers	56	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:100:22:SRTM_LfclService_WakeupPeerCore	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:107:13:SRTM_LfclService_DeactivatePeerCore	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:114:22:SRTM_LfclService_ChangePowerMode	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:161:22:SRTM_LfclService_EnableHeartBeat	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:170:22:SRTM_LfclService_HeartBeat	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:178:22:SRTM_LfclService_Request	72	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:268:22:SRTM_LfclService_Notify	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:302:16:SRTM_LfclService_Create	16	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:325:6:SRTM_LfclService_Destroy	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:349:15:SRTM_LfclService_Subscribe	32	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_lfcl_service.c:375:15:SRTM_LfclService_Unsubscribe	40	static

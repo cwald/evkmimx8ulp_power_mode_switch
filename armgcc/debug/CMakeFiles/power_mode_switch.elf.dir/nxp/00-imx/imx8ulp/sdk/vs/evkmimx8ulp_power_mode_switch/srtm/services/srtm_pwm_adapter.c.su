@@ -1,0 +1,6 @@
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:46:22:setPwm	72	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:86:13:getPwm	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:112:22:SRTM_PwmAdapter_GetPwm	48	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:145:22:SRTM_PwmAdapter_SetPwm	48	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:182:20:SRTM_PwmAdapter_Create	24	static
+/nxp/00-imx/imx8ulp/sdk/vs/evkmimx8ulp_power_mode_switch/srtm/services/srtm_pwm_adapter.c:209:6:SRTM_PwmAdapter_Destroy	16	static

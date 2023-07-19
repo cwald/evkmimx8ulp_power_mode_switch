@@ -1,0 +1,4 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_sem_freertos.c:36:12:SRTM_Sem_Create	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_sem_freertos.c:42:6:SRTM_Sem_Destroy	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_sem_freertos.c:49:15:SRTM_Sem_Post	32	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/port/srtm_sem_freertos.c:73:15:SRTM_Sem_Wait	24	static

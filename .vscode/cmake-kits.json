@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ARM GCC",
+    "environmentVariables": {
+      "ARMGCC_DIR": "/home/user/.mcuxpressotools/gcc-arm-none-eabi-10.3-2021.10",
+      "SdkRootDirPath": "/nxp/00-imx/imx8ulp/sdk/2.14.0"
+    },
+    "cmakeSettings": {
+      "SdkRootDirPath": "/nxp/00-imx/imx8ulp/sdk/2.14.0",
+      "SDK_DEBUGCONSOLE": "1",
+      "LIBRARY_TYPE": "NEWLIB",
+      "LANGUAGE": "C",
+      "DEBUG_CONSOLE": "UART"
+    },
+    "keep": true,
+    "toolchainFile": "/nxp/00-imx/imx8ulp/sdk/2.14.0/tools/cmake_toolchain_files/armgcc.cmake"
+  }
+]

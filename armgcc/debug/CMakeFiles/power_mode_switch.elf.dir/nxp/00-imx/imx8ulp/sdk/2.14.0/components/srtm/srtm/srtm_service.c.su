@@ -1,0 +1,4 @@
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_service.c:30:6:SRTM_Service_Destroy	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_service.c:37:15:SRTM_Service_Request	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_service.c:45:15:SRTM_Service_Notify	16	static
+/nxp/00-imx/imx8ulp/sdk/2.14.0/components/srtm/srtm/srtm_service.c:53:15:SRTM_Service_CheckVersion	32	static
